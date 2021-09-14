@@ -1,0 +1,33 @@
+.section {
+  margin: 2rem auto;
+  width: min(100%, 400px);
+}
+
+.form {
+  margin: 1rem 0;
+}
+
+.label,
+.input,
+.button {
+  display: block;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.input {
+  border: 0;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+}
+
+.button {
+  background: hsl(750 100% 45% / 1);
+  border: 0;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-shadow: 0 1px 2px hsl(750 100% 25% / 0.75);
+  text-transform: uppercase;
+  padding: 0.75rem 1rem;
+}
